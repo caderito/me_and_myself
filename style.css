@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: src "C:\Users\aguia\.vscode\WebDev\Project10\media\FerrisBackground.jpg";
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    margin: 0;
+    text-align: justify;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  
